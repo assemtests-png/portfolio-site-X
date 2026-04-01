@@ -1,0 +1,27 @@
+collections_config:
+  pages:
+    path: ""
+    glob:
+      - "*.html"
+    _enabled_editors:
+      - visual
+      - source
+    _editables:
+      text:
+        bold: true
+        italic: true
+        link: true
+      block:
+        bold: true
+        italic: true
+        link: true
+      image:
+        width: true
+        height: true
+        resize_style: contain
+        allowed_sources:
+          - site-files
+        mime_type: image/jpeg,image/png,image/webp
+
+paths:
+  uploads: img

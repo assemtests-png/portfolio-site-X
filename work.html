@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work — ASSEM HENDAWI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav">
+  <a class="logo" href="index.html">ASSEM HENDAWI</a>
+  <div class="links">
+    <a href="work.html" class="on">WORK</a>
+    <a href="info.html">INFO</a>
+    <a href="contact.html">CONTACT</a>
+  </div>
+</nav>
+<div class="work-pg">
+  <div class="work-header">
+    <div class="atmos"></div>
+    <div class="inner">
+      <div class="work-quote editable">"The manipulations that accompany late capitalism's technologies as the site of rewriting narratives, identities, and traditions"</div>
+      <div class="work-controls">
+        <div class="work-range">Selected works 2018 — 2025</div>
+        <div class="view-toggle">
+          <a class="vt-on" id="vt-gallery" onclick="showView('gallery');return false" href="#">GALLERY</a>
+          <a id="vt-index" onclick="showView('index');return false" href="#">INDEX</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="view-gallery" class="cards-wrap">
+    <div class="cards">
+      <a class="card big editable" href="bariq.html"><img src="img/embed_p03_0.jpeg"><div class="info editable"><h3 class="editable">B.A.R.I.Q.: Invocation of Refusal</h3><span>2025 — Video Installation</span><div class="bar"></div></div></a>
+      <a class="card editable" href="simia.html"><img src="img/embed_p07_0.jpeg"><div class="info editable"><h3 class="editable">SIMIA: Stratagem for Undestining</h3><span>2021 — Film, CGI</span><div class="bar"></div></div></a>
+      <a class="card editable" href="heaven.html"><img src="img/embed_p14_0.jpeg"><div class="info editable"><h3 class="editable">Everything Under Heaven</h3><span>2021 — Film</span><div class="bar"></div></div></a>
+      <a class="card editable" href="platform.html"><img src="img/embed_p19_0.jpeg"><div class="info editable"><h3 class="editable">Platform Poiesis</h3><span>2021 — Film</span><div class="bar"></div></div></a>
+      <a class="card editable" href="assimilating.html"><img src="img/embed_p10_0.jpeg"><div class="info editable"><h3 class="editable">Assimilating</h3><span>2021 — Exhibition</span><div class="bar"></div></div></a>
+      <a class="card editable" href="caliphate.html"><img src="img/embed_p18_0.jpeg"><div class="info editable"><h3 class="editable">Caliphate Pop</h3><span>2021 — Book</span><div class="bar"></div></div></a>
+      <a class="card editable" href="assimilator.html"><img src="img/embed_p23_0.jpeg"><div class="info editable"><h3 class="editable">The Assimilator</h3><span>2018 — Film</span><div class="bar"></div></div></a>
+    </div>
+  </div>
+
+  <div id="view-index" class="index-wrap" style="display:none">
+    <div class="sec">WORKS</div>
+    <table class="tbl"><thead><tr><th>TITLE</th><th>TYPE</th><th>YEAR</th></tr></thead><tbody>
+      <tr><td><a href="bariq.html">B.A.R.I.Q.: Invocation of Refusal <span class="arr">↗</span></a></td><td>Installation</td><td>2025</td></tr>
+      <tr><td><a href="simia.html">SIMIA: Stratagem for Undestining <span class="arr">↗</span></a></td><td>Film</td><td>2021</td></tr>
+      <tr><td><a href="heaven.html">Everything Under Heaven <span class="arr">↗</span></a></td><td>Film</td><td>2021</td></tr>
+      <tr><td><a href="platform.html">Platform Poiesis <span class="arr">↗</span></a></td><td>Film</td><td>2021</td></tr>
+      <tr><td><a href="assimilating.html">Assimilating — Have You Seen A River <span class="arr">↗</span></a></td><td>Exhibition</td><td>2021</td></tr>
+      <tr><td><a href="caliphate.html">Caliphate Pop <span class="arr">↗</span></a></td><td>Book</td><td>2021</td></tr>
+      <tr><td><a href="assimilator.html">The Assimilator: The Advent <span class="arr">↗</span></a></td><td>Film</td><td>2018</td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="exh-bar">
+    <div class="exh-header" onclick="toggleExh()">
+      <div class="left"><span>EXHIBITIONS & SCREENINGS</span><span>10 entries</span></div>
+      <span id="exh-arrow" style="font-size:14px;color:var(--fg-dim);transition:transform .3s">▾</span>
+    </div>
+    <div class="exh-content" id="exh-content">
+      <div class="exh-row editable"><span>Singapore Biennale — SIMIA</span><span>Commission · 2022</span></div>
+      <div class="exh-row editable"><span>Forum Expanded, Berlinale</span><span>Screening · 2023</span></div>
+      <div class="exh-row editable"><span>Beirut Art Center</span><span>Exhibition · 2023</span></div>
+      <div class="exh-row editable"><span>ArteEast — Dreams and Nightmares</span><span>Exhibition · 2023</span></div>
+      <div class="exh-row editable"><span>INFRAHAUNTOLOGIES @ Edith-Russ-Haus</span><span>Exhibition · 2021</span></div>
+      <div class="exh-row editable"><span>ASSIMILATing @ Imaginary Z</span><span>Exhibition · 2022</span></div>
+      <div class="exh-row editable"><span>HIJRA @ London Short Film Festival</span><span>Screening · 2023</span></div>
+      <div class="exh-row editable"><span>INFRAHAUNTOLOGIES @ Galerie La Box</span><span>Exhibition · 2021</span></div>
+      <div class="exh-row editable"><span>Dialogical Model @ Aalto University</span><span>Exhibition · 2020</span></div>
+      <div class="exh-row editable"><span>FAROCKI NOW — Temporary Academy</span><span>Screening · 2017</span></div>
+    </div>
+  </div>
+</div>
+<script>
+function showView(v){
+  document.getElementById('view-gallery').style.display=v==='gallery'?'block':'none';
+  document.getElementById('view-index').style.display=v==='index'?'block':'none';
+  document.getElementById('vt-gallery').className=v==='gallery'?'vt-on':'';
+  document.getElementById('vt-index').className=v==='index'?'vt-on':'';
+}
+function toggleExh(){
+  var c=document.getElementById('exh-content');
+  var a=document.getElementById('exh-arrow');
+  if(c.classList.contains('open')){c.classList.remove('open');a.style.transform='rotate(0)'}
+  else{c.classList.add('open');a.style.transform='rotate(180deg)'}
+}
+</script>
+</body>
+</html>
